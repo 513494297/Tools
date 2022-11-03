@@ -1,0 +1,22 @@
+{
+  "name": "HFTools",
+  "version": "0.1.0",
+  "summary": "A short description of HFTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/513494297/HFTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "513494297": "513494297@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/513494297/HFTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HFTools/Classes/**/*"
+}
