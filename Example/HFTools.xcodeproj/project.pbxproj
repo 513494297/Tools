@@ -57,7 +57,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C5F660BF50C5A309B54E49F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,13 +119,12 @@
 		6003F593195388D20070C39A /* Example for HFTools */ = {
 			isa = PBXGroup;
 			children = (
+				9AD9019F2914FE9600F0FE91 /* HFUtilities */,
+				9AD901982914FD6E00F0FE91 /* Resources */,
 				6003F59C195388D20070C39A /* HFAppDelegate.h */,
 				6003F59D195388D20070C39A /* HFAppDelegate.m */,
 				6003F5A5195388D20070C39A /* HFViewController.h */,
 				6003F5A6195388D20070C39A /* HFViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for HFTools";
@@ -170,6 +169,23 @@
 				19B8B826ED871CC18D6915E4 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9AD901982914FD6E00F0FE91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9AD9019F2914FE9600F0FE91 /* HFUtilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HFUtilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
