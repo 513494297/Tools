@@ -1,0 +1,6 @@
+framework module Pods_HFTools_Tests {
+  umbrella header "Pods-HFTools_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

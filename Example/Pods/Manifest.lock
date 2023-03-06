@@ -1,0 +1,16 @@
+PODS:
+  - HFTools (0.1.0)
+
+DEPENDENCIES:
+  - HFTools (from `../`)
+
+EXTERNAL SOURCES:
+  HFTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HFTools: 834e396f3de76319fafd8df9c2d3c91eb337f31d
+
+PODFILE CHECKSUM: 699459b9ea57421f411037cff49f37ba625cd414
+
+COCOAPODS: 1.11.3
